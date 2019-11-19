@@ -1,0 +1,74 @@
+
+// Colors.
+$black: #252525;
+$gray: #6b6b6b;
+$green: #bada55;
+$red: orangered;
+$pur: #9376df;
+$white: #fff;
+
+.kenzap .kp-blog-pagination{
+    margin-top: 24px;
+}
+
+.kenzap .kp-blog-pagination ul {
+	display:inline-block;
+	margin:0;
+    border-radius:5px;
+    width: 100%;
+    text-align: center;
+}
+
+.kenzap .kp-blog-pagination ul li{
+	display:inline-block
+}
+
+.kenzap .kp-blog-pagination ul > li > span,
+.kenzap .kp-blog-pagination ul > li > a{
+	display:inline-block;
+	font-size:14px;
+	color:var(--tc, #333);
+	font-weight:600;
+	padding:0;
+	border:none;
+	margin:10px 5px;
+	width:30px;
+	height:30px;
+	line-height:30px;
+    background:transparent;
+    text-align: center;
+}
+
+.kenzap .kp-blog-pagination ul > li > span.current,
+.kenzap .kp-blog-pagination ul > li > a.current,
+.kenzap .kp-blog-pagination ul > li:hover > a{
+	background:var(--mc, #ff6600);
+	color:#fff;
+	border-radius:50px
+}
+
+.kenzap .kp-blog-pagination ul > li:first-child > a,
+.kenzap .kp-blog-pagination ul > li:last-child > a{
+	padding:0;
+	border:none;
+	margin:10px 0;
+	width:auto;
+	height:auto;
+	line-height:1;
+	border-radius:0;
+	background:none;
+    color:var(--tc, #333);;
+}
+ 
+.kenzap .kp-blog-pagination ul > li > a > span{
+	padding:25px;
+	border:none;
+	margin:0;
+	width:30px;
+	height:30px;
+	line-height:1;
+}
+
+.kenzap .kp-blog-pagination ul > li > a > span > i{
+	margin:0 5px;
+}
